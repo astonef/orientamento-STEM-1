@@ -1,5 +1,5 @@
-- Biotecnologo
-- Chimico farmaceutico
-- Geologo ambientale
-- Microbiologo
-- Astrofisico
+- Biotecnologo.
+- Chimico farmaceutico.
+- Geologo ambientale.
+- Microbiologo.
+- Astrofisico.
