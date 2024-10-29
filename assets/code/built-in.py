@@ -99,3 +99,100 @@ esplora_con_dettagli(
     Ostia="una spiaggia con sabbia finissima"
 )
 '''
+
+# Tipi di dati e operatori aritmetici
+
+'''
+# Tipi di dati
+eta = 15  # int
+altezza = 1.65  # float
+nome = "Stefano"  # string
+is_student = True  # boolean
+
+# Stampa delle variabili
+print("Età:", eta)
+print("Altezza:", altezza)
+print("Nome:", nome)
+print("Sei uno studente?", is_student)
+
+# Operazioni aritmetiche
+somma = eta + 5
+print("Somma dell'età e 5:", somma)
+
+moltiplicazione = altezza * 2
+print("Il doppio dell'altezza:", moltiplicazione)
+
+sottrazione = eta - 3
+print("Età meno 3:", sottrazione)
+
+divisione = altezza / 2
+print("Altezza divisa per 2:", divisione)
+'''
+
+# Liste, Tuple, Dizionari
+'''
+# Liste
+frutti = ["mela", "banana", "ciliegia"]
+frutti.append("arancia")  # Aggiungi un frutto
+frutti.remove("banana")  # Rimuovi un frutto
+print("Lista aggiornata dei frutti:", frutti)
+
+# Tuple
+colori = ("rosso", "verde", "blu")
+print("Colori nella tupla:", colori)
+
+# Dizionari
+studenti = {"Luca": 14, "Marta": 15}
+studenti["Giulia"] = 16  # Aggiungi uno studente
+studenti["Luca"] = 15  # Modifica l'età di uno studente
+print("Dizionario aggiornato degli studenti:", studenti)
+
+'''
+
+# Cicli for e while
+'''
+# Ciclo for su una lista
+numeri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for numero in numeri:
+    print("Numero:", numero)
+
+# Contare numeri maggiori di 10
+numeri_grandi = [3, 8, 15, 1, 22, 9]
+count = 0
+for numero in numeri_grandi:
+    if numero > 10:
+        count += 1
+print("Numeri maggiori di 10:", count)
+
+# Ciclo while per cercare un nome
+nomi = ["Anna", "Marco", "Luca", "Sara"]
+index = 0
+while index < len(nomi):
+    if nomi[index] == "Luca":
+        print("Nome trovato:", nomi[index])
+        break
+    index += 1
+'''
+
+# Input dall'utente
+'''
+# 1. Chiedi il nome all'utente
+nome = input("Inserisci il tuo nome: ")
+print(f"Benvenuto, {nome}!")
+
+# 2. Calcolatore interattivo
+numero1 = int(input("Inserisci il primo numero: "))
+numero2 = int(input("Inserisci il secondo numero: "))
+somma = numero1 + numero2
+print(f"La somma di {numero1} e {numero2} è: {somma}")
+
+# 3. Gioco del numero segreto
+numero_segreto = 7
+tentativo = int(input("Indovina il numero segreto (tra 1 e 10): "))
+
+if tentativo == numero_segreto:
+    print("Complimenti! Hai indovinato il numero segreto!")
+else:
+    print("Spiacente, il numero è sbagliato. Riprova!")
+
+'''
